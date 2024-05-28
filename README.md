@@ -3,7 +3,7 @@ This project contains a collection of MATLAB scripts and associated data files u
 
 ##File Descriptions
 #Scripts
-`DeltaScalingTest.m`
+DeltaScalingTest.m
 
 Description: This script performs delta scaling tests, which likely involve adjusting a scaling parameter (delta) and observing its effects on the simulation or model.
 Usage: Run this script to perform the delta scaling test and generate relevant plots or output data.
@@ -56,15 +56,16 @@ Run the desired script by typing its name in the command window (e.g., DeltaScal
 Loading Data Files:
 
 Use the load function to load .mat files as needed within your scripts.
-Example: load('deltacolormap.mat').
-Dependencies
-MATLAB (R2021a or later recommended)
-Signal Processing Toolbox (for some scripts)
-Author
-Name: [Your Name]
-Contact: [Your Email]
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
+Example: load('deltacolormap.mat')
 
-Acknowledgments
-Acknowledge any individuals or organizations that contributed to the project.
+Dependencies
+MATLAB (R2023a or later recommended)
+ANSYS Lumerical(2023 R1 or later recommended)
+
+#Author
+Name: Sujay Srivastava
+Contact: sujay3sriv@gmail.com
+
+
+#Acknowledgments
+This work is possible due to funding from DAAD(Deutscher Akademischer Austauschdienst). The work is done under Prof. Antonio Calà Lesina, Professor, Leibniz University Hannover. Thank you, Sadeq Bahmani, for your help in this project.
