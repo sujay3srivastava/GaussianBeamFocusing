@@ -3,11 +3,11 @@ This project contains a collection of MATLAB scripts and associated data files u
 
 ## File Descriptions
 ### Scripts
-'DeltaScalingTest.m'
+`DeltaScalingTest.m`
 
 Description: This script performs delta scaling tests, which likely involve adjusting a scaling parameter (delta) and observing its effects on the simulation or model.
 Usage: Run this script to perform the delta scaling test and generate relevant plots or output data.
-'farfieldFocusing.m'
+`farfieldFocusing.m`
 
 Description: This script is used to simulate and analyze farfield focusing, which is a technique used in optics and wave propagation.
 Usage: Execute this script to perform farfield focusing simulations and visualize the results.
