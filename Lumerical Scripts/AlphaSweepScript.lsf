@@ -1,0 +1,8 @@
+switchtolayout;
+sweepdelta = "Angle2";
+runsweep(sweepdelta);
+alpha2 = getsweepdata(sweepdelta,"alpha2");
+alpha1 = getsweepdata(sweepdelta,"alpha1");
+result = getsweepresult(sweepdelta,"Field");
+by= result.b;
+

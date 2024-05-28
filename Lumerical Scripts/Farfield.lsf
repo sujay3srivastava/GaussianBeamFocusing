@@ -1,0 +1,12 @@
+clear;
+#run;
+x_E = linspace(-50e-6,50e-6,100);
+y_E = linspace(-37.5e-6,62.5e-6,100);
+z_E = linspace(80e-6,120e-6,1);
+outTaperXY = farfieldexact3d( "monitor", x_E, y_E,z_E);
+
+x_o = linspace(-1e-6,1e-6,1);
+y_o = linspace(-37.5e-6,62.5e-6,100);
+z_o = linspace(20e-6,200e-6,200);
+outTaperYZ = farfieldexact3d( "monitor", x_o, y_o,z_o);
+matlabsave("farfield25umMesh6Z1monitor20.mat");
