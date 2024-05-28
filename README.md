@@ -7,36 +7,37 @@ This project contains a collection of MATLAB scripts and associated data files u
 
 Description: This script performs delta scaling tests, which likely involve adjusting a scaling parameter (delta) and observing its effects on the simulation or model.
 Usage: Run this script to perform the delta scaling test and generate relevant plots or output data.
+
 `farfieldFocusing.m`
 
 Description: This script is used to simulate and analyze farfield focusing, which is a technique used in optics and wave propagation.
 Usage: Execute this script to perform farfield focusing simulations and visualize the results.
-'MetaunitMapper.m'
+`MetaunitMapper.m`
 
 Description: This script maps the properties of metaunits, which are the basic building blocks in metamaterials.
 Usage: Use this script to map and analyze different metaunit configurations and their properties.
-'MetaunitMapperSquareStructure.m'
+`MetaunitMapperSquareStructure.m`
 
 Description: A variant of the MetaunitMapper script, tailored for square-structured metaunits.
 Usage: Run this script to specifically analyze square metaunit structures.
-'nestedsweepD1D2_amplitude.m'
+`nestedsweepD1D2_amplitude.m`
 
 Description: This script performs nested sweeps for two parameters (D1 and D2) and analyzes their effects on the amplitude of the system.
 Usage: Execute this script to conduct the nested sweeps and plot the amplitude results.
-'nestedsweepD1D2_phaseplot.m'
+`nestedsweepD1D2_phaseplot.m`
 
 Description: Similar to the above, but focuses on generating phase plots instead of amplitude plots.
 Usage: Use this script to generate phase plots from the nested sweeps of D1 and D2.
-'NetFarfield.m'
+`NetFarfield.m`
 
 Description: This script aggregates the results from various farfield simulations and provides a comprehensive analysis.
 Usage: Run this script to compile and analyze the results from multiple farfield focusing experiments.
 ### Data Files
-'deltacolormap.mat'
+`deltacolormap.mat`
 
 Description: Contains colormap data used for visualizations in delta scaling tests.
 Usage: Load this file in MATLAB to apply the colormap to your plots.
-'phasecolormap.mat'
+`phasecolormap.mat`
 
 Description: Contains colormap data used for phase plotting.
 Usage: Load this file in MATLAB to apply the colormap to your phase plots.
